@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": false,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "jsx": "preserve",
+      "lib": ["ESNext", "DOM"],
+      "outDir": "./dist",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src/**/*", "demo/**/*"],
+    "exclude": ["node_modules"]
+  }
